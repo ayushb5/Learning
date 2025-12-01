@@ -20,4 +20,4 @@ const increment = () => {
 };
 
 Output-
-![alt text](image.png)
+![alt text](Task2_output.png)
