@@ -12,9 +12,9 @@ function Question() {
         setCount(counter + 1);
     }
 
-    // js provide reduce function to accumulate the value
-    // React batches the repeated setCount as single because its made to reuse the same component
-    // instead using setCount(counter+1) we can use logic as->
+    //   React will batch these updates in the same event cycle 
+    // — meaning instead of increasing 3 times, the value will update only once.
+    // So if counter = 0, after running this function, the final value will be 1, not 3.
 
     function increment_without_batched() {
         setCnt(prevCount => prevCount + 1);
