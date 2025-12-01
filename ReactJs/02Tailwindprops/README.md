@@ -1,6 +1,6 @@
 1.  App passes values like name, age, and academic year:
 
-    **<Student username="Karan" age={25} Acadyr="2025-26" />**
+    `<Student username="Karan" age={25} Acadyr="2025-26" />`
 
 2.  The Student component receives them through props and displays them inside the UI.
 
