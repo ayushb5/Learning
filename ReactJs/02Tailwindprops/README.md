@@ -4,7 +4,7 @@
 
 2.  The Student component receives them through props and displays them inside the UI.
 
-```function Student(props) {
+````function Student(props) {
  return (
  <>
  <div className='h-100 w-100 bg-white flex justify-center items-center'>
@@ -20,4 +20,4 @@
  );
  }```
 
-![alt text](Output.png)
+ReactJs/02Tailwindprops/Output.png
