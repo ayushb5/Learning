@@ -10,4 +10,5 @@ const sendMsg = () => {
 ```
 
 Output-
-![alt text](output.png)
+![alt text](output1.png)
+![alt text](output2.png)

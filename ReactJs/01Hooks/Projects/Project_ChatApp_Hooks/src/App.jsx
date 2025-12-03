@@ -21,7 +21,7 @@ function App() {
 
           <h1 className='text-[30px] font-bold text-center'>Message</h1>
 
-          <div className='flex flex-col justify-end items-end flex-1 overflow-y-auto px-2'>
+          <div className='flex flex-col items-end flex-1 overflow-y-auto px-2 space-y-2'>
             {chat.map((text, index) => (
               <div key={index} className='flex justify-end mb-2'>
                 <p className="bg-green-500 text-white px-3 py-2 rounded-xl">
