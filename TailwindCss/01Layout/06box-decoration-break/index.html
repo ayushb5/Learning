@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS||box-decoration-break</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black">
+    <div class="p-2 m-2">
+      <h1 class="text-white text-[25px]">
+        Using Default box-decoration-break as slice
+      </h1>
+      <span
+        class="text-[25px] border-4 border-orange-700 bg-gradient-to-r from-green-600 to-blue-300 inline leading-loose box-decoration-slice"
+        >This paragraph demonstrates the box-decoration-slice utility. <br />It
+        keeps the background and border as one continuous shape.<br />
+        Even if the text wraps across several lines,<br />
+        the box remains unified without splitting,<br />
+        creating a single clean highlight effect.</span
+      >
+    </div>
+    <hr class="border-3" />
+    <div class="p-2 m-2">
+      <h1 class="text-white text-[25px]">Using box-decoration-clone</h1>
+      <span
+        class="text-[25px] border-4 border-orange-700 bg-gradient-to-r from-green-600 to-blue-300 inline leading-loose box-decoration-clone"
+        >This paragraph demonstrates the box-decoration-clone utility. <br />It
+        applies a separate background and border to each line of wrapped
+        text.<br />
+        Instead of one continuous shape,<br />
+        every line forms its own box,<br />
+        creating a repeated highlight effect<br />that looks like individual
+        tags or labels.</span
+      >
+    </div>
+  </body>
+</html>
