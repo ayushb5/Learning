@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-[800px] mx-auto border">
+      <label class="block text-center text-[25px]">aspect-square</label>
+      <iframe
+        class="aspect-square"
+        src="https://www.youtube.com/embed/CLkxRnRQtDE?si=lTAFWZYF0e72WXG7"
+        allowfullscreen
+      ></iframe>
+      <hr class="border-black" />
+      <label class="block text-center text-[25px]">aspect-square</label>
+      <iframe
+        class="aspect-video"
+        src="https://www.youtube.com/embed/CLkxRnRQtDE?si=lTAFWZYF0e72WXG7"
+        allowfullscreen
+      ></iframe>
+
+      <label class="block text-center text-[25px]">aspect-auto</label>
+      <iframe
+        class="aspect-auto"
+        src="https://www.youtube.com/embed/CLkxRnRQtDE?si=lTAFWZYF0e72WXG7"
+        allowfullscreen
+      ></iframe>
+
+      <label class="block text-center text-[25px]"
+        >aspect-[4/3] //Custom Aspect value</label
+      >
+      <iframe
+        class="aspect-[4/3]"
+        src="https://www.youtube.com/embed/CLkxRnRQtDE?si=lTAFWZYF0e72WXG7"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
