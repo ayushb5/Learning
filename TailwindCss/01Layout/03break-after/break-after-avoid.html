@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS||break-after</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <p class="m-2">Without using break-after-avoid</p>
+    <div class="columns-2 gap-4 p-2">
+      <h1 class="text-[20px] font-bold border border-black">Title</h1>
+      <p class="border border-black">
+        This is content that shift in new column
+      </p>
+    </div>
+    <hr class="border-black" />
+    <p class="m-2">With using break-after-avoid</p>
+    <div class="columns-2 gap-4 p-2">
+      <h1 class="text-[20px] font-bold break-after-avoid border border-black">
+        Title
+      </h1>
+      <p class="border border-black">This is content that stays with title</p>
+    </div>
+  </body>
+</html>
