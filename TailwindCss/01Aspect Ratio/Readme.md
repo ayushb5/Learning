@@ -1,3 +1,3 @@
 ![alt text](assets/aspect-ratio.png)
 
-![alt text](assets/output.png)
+![alt text](assets/result.png)
