@@ -1,4 +1,4 @@
-Increase timer with latest value and clearInterval (to clear previous Interval and run new Interval) so timers will not increase
+Increase timer every second using the latest state value (setTime(time => time + 1)). The clearInterval in the cleanup ensures the interval is cleared when the component unmounts, preventing memory leaks.
 
 Output-
 ![alt text](src/assets/image.png)
