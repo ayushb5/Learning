@@ -9,4 +9,4 @@ Syntax
 
 Output:
 
-![alt text](/assets/output.png)
+![alt text](src/assets/output.png)
