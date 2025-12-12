@@ -10,3 +10,4 @@ div1 (useLayoutEffect) runs synchronously after React renders the DOM but before
 
 div2 (useEffect) updates after the DOM is painted, which can sometimes cause a small flicker.
 
+https://github.com/user-attachments/assets/6866f08b-4858-46d4-a663-759a25f26b77
