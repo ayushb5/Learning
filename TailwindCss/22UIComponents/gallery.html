@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .img-gallery {
+          @apply w-76 hover:scale-110 transition duration-700 rounded;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5 mx-3 flex flex-wrap gap-2">
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+      <img src="swan.jpg" class="img-gallery" alt="image" />
+    </div>
+  </body>
+</html>

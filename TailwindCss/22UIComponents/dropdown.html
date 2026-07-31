@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <h1 class="text-2xl font-bold m-10">Dropdown</h1>
+
+    <div class="m-10">
+      <div class="relative inline-block group">
+        <button class="border bg-white rounded-md px-5 py-2 shadow">
+          City ▼
+        </button>
+
+        <div
+          class="absolute top-full left-0 mt-2 w-44 bg-white rounded-lg shadow-lg scale-y-0 opacity-0 origin-top transition-all duration-200 group-focus-within:scale-y-100 group-focus-within:opacity-100"
+        >
+          <a href="#" class="block px-4 py-2 hover:bg-blue-500 hover:text-white"
+            >Home</a
+          >
+          <a href="#" class="block px-4 py-2 hover:bg-blue-500 hover:text-white"
+            >About</a
+          >
+          <a href="#" class="block px-4 py-2 hover:bg-blue-500 hover:text-white"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
